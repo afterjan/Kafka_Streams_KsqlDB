@@ -28,7 +28,7 @@ def receipt(err,msg):
 topic_name = 'bankmarketing'
 
 def main():
-    with open('bank_marketing_dataset15.csv', 'r') as file:
+    with open('bank_marketing_dataset20.csv', 'r') as file:
         data = DictReader(file)
         for cust in data:
             p.produce(topic_name, json.dumps(cust).encode('utf-8'), callback=receipt)
