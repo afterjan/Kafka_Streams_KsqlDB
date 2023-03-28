@@ -13,7 +13,7 @@ Stream Processing Data into ksqlDB.
    docker-compose up -d
    ```
 2. Go to localhost:9021, then create a stream and materialized views in ksqlDB using SQL queries.
-3. Run producer.py (ensure to run in the directory that stored the file)
+3. Run producer.py (ensure to run in the directory that stored the file).
    ``` 
    python producer.py
    ```
