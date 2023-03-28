@@ -1,5 +1,5 @@
 # Kafka Stream (Streaming Processing)
-Stream Processing Data into ksqlDB
+Stream Processing Data into ksqlDB.
 
 # Prerequisites
 1. Java
