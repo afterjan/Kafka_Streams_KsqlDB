@@ -1,13 +1,13 @@
 # Kafka Stream (Streaming Processing)
 Stream Processing Data into ksqlDB.
 
-# Prerequisites
+## Prerequisites
 1. Java
 2. Apache Kafka
 3. Confluent
 4. Docker
 
-# Steps
+## Steps
 1. Create Kafka stacks with Docker Compose.
    ```
    docker-compose up -d
